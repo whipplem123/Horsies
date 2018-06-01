@@ -46,7 +46,7 @@ Note that the first two weeks are the same as for the prime numbers.  After that
 
 ### Observations
 Now that we have an example of a solution for a composite number, we can compare the prime and composite solutions to find patterns that hold for both.  
-* Average horse number in races from Week 3 on: For the 4x4 solution, this average is 34.  Note that 8.5 is also the average of all the horses 1-16.  In the 3x3 solution, the average for each race is 5, which is also the average of all the horses 1-9.
+* Average horse number in races from Week 3 on: For the 4x4 solution, this average is 8.5 for each race.  Note that 8.5 is also the average of all the horses 1-16.  In the 3x3 solution, the average for each race is 5, which is also the average of all the horses 1-9.
 * Switching horses: We can actually arrive at the 4x4 solution by a series of switches.  Note that the problem occurs in Week 4 - thus we start by switching the last two horses between Races 1 and 4, as well as Races 2 and 3.  We then switch Race 2 in Weeks 3 and 5, as well as Race 4 in Weeks 3 and 5.  Finally, in Week 5 we switch the last two horses in Races 1 and 4, as well as Races 2 and 3.
 
 ### Challenges
