@@ -16,7 +16,7 @@ When the number of horses per race is a prime number, the solution is trivial - 
 We start by grouping the horses into pods, and the first week consists of each of these pods racing against each other.  In the second week, we have races with the first in each pod against each other, the second against each other, and so on.  This pattern holds for the 4x4 problem as well, and I believe we can use this pattern for the first two weeks of any problem.  In the following weeks, Horse 1 will race in the first race, Horse 2 in the second, and so on.  Their opponents will be determined by picking one horse each from the remaining pods.  This decision is based on the horse's position within the pod.  The schedule is constructed as follows:
 * Week 3: skip 1 - Horse 1 is the first horse in Pod 1, so he will race against the second horse from Pod 2 and the third horse from Pod 3.  When necessary, we will wrap back to the start of the pod.  Thus, Horse 2 will race against the third horse from Pod 2 and the first horse from Pod 3.
 * Week 4: skip 2 - Horse 1 races against the third horse from Pod 2 and the second horse from Pod 3.  Similarly, Horse 2 races against the first horse from Pod 2 and the third horse from Pod 3.
-* For the nxn problem (with n prime), Week j is constructed by skipping j - 2 spots, up to j = n + 1.
+* For the nxn problem (with n prime), Week j is constructed by skipping j - 2 spots, 2 &le; j &le; n + 1
 
 ### Composite Numbers
 The solution described above works for all prime numbers, but not for composite numbers.  For example, let's see what happens if we try this solution for the 4x4 problem.
